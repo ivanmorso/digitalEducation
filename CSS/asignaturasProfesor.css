@@ -1,0 +1,112 @@
+/*----------HEADER----------*/
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+#divLogo{
+    width: 10%;
+}
+
+#logo{
+    width: 100%;
+}
+
+#divTitulo{
+    display: flex;
+    align-items: center;
+}
+
+#titulo{
+    width: 100%
+}
+
+#divUsuario{
+    display: flex;
+    flex-direction: column;
+}
+
+header a{
+    margin: auto;
+    font-size: 1.5em;
+}
+
+/*----------MAIN----------*/
+main{
+    margin-top: 50px;
+    height: 540px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section img{
+    width: 25px;
+    height: 25px;
+}
+
+main section h1{
+    text-align: center;
+}
+
+.fichero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#asignaturas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;  
+}
+
+form h2{
+    text-align: center;
+}
+
+.imagenes{
+    display: flex;
+    margin: auto;
+}
+
+main section p{
+    font-size: 1.5em;
+}
+
+main img{
+    width: 90%;
+    height: 200px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*----------FOOTER----------*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(#446bb3, #74ccf2, #5bb334);
+    color: black;
+    text-align: center;
+}
+
+/*----------GENERALES----------*/
+.enlaces{
+    display: flex;
+    flex-direction: column;
+}
+
+.margenB-10{
+    margin-bottom: 10px;
+}

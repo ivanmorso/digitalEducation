@@ -1,0 +1,89 @@
+/*----------HEADER----------*/
+header{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 15%;
+    margin-bottom: 15px;
+}
+
+/*----------MAIN----------*/
+#container{
+    background-image: linear-gradient(#446bb3, #74ccf2, #5bb334);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 20%;
+    height: 400px;
+    margin-left: 40%;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 530px;
+}
+
+main div div{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+label, input{
+    display: block;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+label{
+    font-size: 2em;
+}
+
+input{
+    width: 80%;
+    height: 20px;
+}
+
+#acceder{
+    margin-top: 10%;
+}
+
+#mensaje{
+    text-align: center;
+    font-size: 1.3em;
+    color: #C0392B ;
+    
+}
+/*----------FOOTER----------*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(#446bb3, #74ccf2, #5bb334);
+    color: black;
+    text-align: center;
+}
+
+/*----------GENERALES----------*/
+.enlaces{
+    display: flex;
+    flex-direction: column;
+}
+
+.margenB-10{
+    margin-bottom: 10px;
+}
+
