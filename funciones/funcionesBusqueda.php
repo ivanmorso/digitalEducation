@@ -3,7 +3,7 @@
 //Busca el nombre del profesor por su id
 function busquedaNombreProfesor($idProfesor){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreProfesor = "";
@@ -53,7 +53,7 @@ function busquedaNombreProfesor($idProfesor){
 //Busca el nombre del alumno por su id
 function busquedaNombreAlumno($idAlumno){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreProfesor = "";
@@ -102,7 +102,7 @@ function busquedaNombreAlumno($idAlumno){
 
 function busquedaNombreAdministrador($idAdministrador){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreAdministrador = "";
@@ -153,7 +153,7 @@ function busquedaNombreAdministrador($idAdministrador){
 //Busca el id de la asignatura por el nombre de la asignatura, devolviendo el id de la asignatura
 function busquedaIdAsignatura($nombreAsignatura){
      /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../../seguridad/DBPlataformaDigital.php';
+    require_once '../../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $idAsignatura = "";
@@ -203,7 +203,7 @@ function busquedaIdAsignatura($nombreAsignatura){
 //Busca el id del alumno por su usuario
 function buscarIdAlumno($usuario){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../../seguridad/DBPlataformaDigital.php';
+    require_once '../../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $idAlumno = "";
@@ -253,7 +253,7 @@ function buscarIdAlumno($usuario){
 //Busca el id del profesor por el nombre de usuario
 function buscarIdProfesor($usuario){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../../seguridad/DBPlataformaDigital.php';
+    require_once '../../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $idProfesor = "";
@@ -303,7 +303,7 @@ function buscarIdProfesor($usuario){
 //Busca el id del administrador por el nombre de usuario
 function buscarIdAdministrador($usuario){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../../seguridad/DBPlataformaDigital.php';
+    require_once '../../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $idAdministrador = "";
@@ -353,7 +353,7 @@ function buscarIdAdministrador($usuario){
 //Busca el nombre de las clases y los añade a un option value
 function busquedaClases($multiple){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../../seguridad/DBPlataformaDigital.php';
+    require_once '../../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $id_clase = "";
@@ -412,7 +412,7 @@ function busquedaClases($multiple){
 //Busca el nombre de los cursos y los añade a un option value para seleccionarlos
 function busquedaNombreCursos($multiple){   
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../../seguridad/DBPlataformaDigital.php';
+    require_once '../../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreCurso = "";
@@ -470,7 +470,7 @@ function busquedaNombreCursos($multiple){
 //Busca el nombre de las asignaturas por el id del curso, añadiendolos a un checkbox para mostrarlas
 function busquedaNombreAsignaturas($idCurso, $idClase){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../../seguridad/DBPlataformaDigital.php';
+    require_once '../../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreAsignatura = "";
@@ -522,7 +522,7 @@ function busquedaNombreAsignaturas($idCurso, $idClase){
 //Busca el nombre de un curso especifico mediante su id, devolviendo su nombre
 function busquedaNombreCurso($idCurso){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreCurso = "";
@@ -572,7 +572,7 @@ function busquedaNombreCurso($idCurso){
 //Busca el nombre de una clase especifica mediante su id, devolviendo su nombre
 function busquedaNombreClase($idClase){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreClase = "";
@@ -622,7 +622,7 @@ function busquedaNombreClase($idClase){
 //Busca el nombre de los cursos a los que pertenece un profesor por el dni
 function buscarCursosProfesor($idProfesor){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreCurso = "";
@@ -679,7 +679,7 @@ function buscarCursosProfesor($idProfesor){
 //Busca el nombre de las asignaturas de un profesor por el dni y el id del curso, y crea un div con una imagen 
 function buscarAsignaturasProfesor($idClase, $idCurso, $idProfesor){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreAsignatura = "";
@@ -734,7 +734,7 @@ function buscarAsignaturasProfesor($idClase, $idCurso, $idProfesor){
 //Busca el dni del profesor por el nombre de usuario
 function buscarDniAlumno($usuario){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $dni = "";
@@ -784,7 +784,7 @@ function buscarDniAlumno($usuario){
 //Busca el nombre de los cursos a los que pertenece un alumno por el dni
 function buscarCursosAlumno($idAlumno){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreCurso = "";
@@ -841,7 +841,7 @@ function buscarCursosAlumno($idAlumno){
 //Busca el nombre de las asignaturas de un alumno por el dni y el id del curso, y crea un div con una imagen 
 function buscarAsignaturasAlumno($idClase, $idCurso, $idAlumno){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreAsignatura = "";
@@ -896,7 +896,7 @@ function buscarAsignaturasAlumno($idClase, $idCurso, $idAlumno){
 //Busca el id del archivo por su nombre de archivo
 function buscarIdArchivo($nombreArchivo){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../../seguridad/DBPlataformaDigital.php';
+    require_once '../../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $idArchivo = "";
@@ -943,7 +943,7 @@ function buscarIdArchivo($nombreArchivo){
 //Busca el contenido de una asignatura de un curso de una clase
 function buscarContenidoAsignatura($idAsignatura, $idClase, $idCurso){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $idArchivo = "";
@@ -1000,7 +1000,7 @@ function buscarContenidoAsignatura($idAsignatura, $idClase, $idCurso){
 //Busca el nombre del archvo por su id
 function buscarNombreArchivo($idArchivo){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreArchivo = "";
@@ -1045,7 +1045,7 @@ function buscarNombreArchivo($idArchivo){
 //Busca el tipo de archivos por su id
 function buscarTipoArchivo($idArchivo){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $tipoArchivo = "";
@@ -1090,7 +1090,7 @@ function buscarTipoArchivo($idArchivo){
 //Busca el nombre de la asignatura por su id
 function buscarNombreAsignatura($idAsignatura){
     /*----------ARCHIVOS EXTERNOS----------*/
-    require_once '../../seguridad/DBPlataformaDigital.php';
+    require_once '../seguridad/DBPlataformaDigital.php';
     
     /*----------VARIABLES----------*/
     $nombreAsignatura = "";
